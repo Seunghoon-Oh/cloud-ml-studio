@@ -1,1 +1,1 @@
-# cloud-ml-studio
+# cloud-ml-studio-manager
