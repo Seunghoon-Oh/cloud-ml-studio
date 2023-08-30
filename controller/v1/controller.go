@@ -10,6 +10,6 @@ import (
 
 func GetStudios(c *gin.Context) {
 	data := service.GetStudios()
-	println(data)
+	println("Response: " + data)
 	c.String(http.StatusOK, data)
 }
