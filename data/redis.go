@@ -13,7 +13,7 @@ var rdb *redis.Client
 func SetupRedisClient() {
 	rdb = redis.NewClient(&redis.Options{
 		Addr:     "redis-master.cloud-ml-pipeline.svc.cluster.local:6379",
-		Password: "X1VErUTn97", // no password set
+		Password: "zWpuJLoN6d", // no password set
 		DB:       0,            // use default DB
 	})
 	n, err := rdb.Exists(ctx, "id").Result()
